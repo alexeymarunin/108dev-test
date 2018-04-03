@@ -1,0 +1,36 @@
+{
+  "name": "108dev-test",
+  "version": "1.0.0",
+  "description": "108dev test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeymarunin/108dev-test.git"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "ccxt",
+    "websocket",
+    "api",
+    "108dev"
+  ],
+  "author": "Alexey Marunin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexeymarunin/108dev-test/issues"
+  },
+  "homepage": "https://github.com/alexeymarunin/108dev-test#readme",
+  "dependencies": {
+    "ccxt": "^1.12.73",
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-websocket": "^4.1.0",
+    "lodash": "^4.17.5"
+  }
+}
